@@ -31,7 +31,12 @@ def positive_or_negative(num_a: int) -> str:
     :param num_a: given integer
     :return "negative", "positive" or "zero" depending on the given integer.
     """
-    # your code goes here
+    if num_a > 0:
+        return "positive"
+    elif num_a < 0:
+        return "negative"
+    else:
+        return "zero"
 
 
 def is_in_string(letter: str, word: str) -> bool:
@@ -45,7 +50,7 @@ def is_in_string(letter: str, word: str) -> bool:
     :param word: given word.
     :return: boolean depending on if given letter is in given word.
     """
-    # your code goes here
+    return letter in word
 
 
 def are_same_length(str_a: str, str_b: str) -> bool:
@@ -59,7 +64,7 @@ def are_same_length(str_a: str, str_b: str) -> bool:
     :param str_a: second string
     :return boolean True or False.
     """
-    # your code goes here
+    return len(str_a) == len(str_b)
 
 
 def is_letter_or_digit(symbol: str) -> str:
@@ -74,6 +79,12 @@ def is_letter_or_digit(symbol: str) -> str:
     :return "letter", "digit" or "other".
     """
     # your code goes here
+    if symbol.isalpha():
+        return "letter"
+    elif symbol.isdigit():
+        return "digit"
+    else:
+        return "other"
 
 
 def are_last_symbols_same(str_a: str, str_b: str) -> bool:
@@ -88,7 +99,9 @@ def are_last_symbols_same(str_a: str, str_b: str) -> bool:
     :return boolean.
     """
     # your code goes here
-
+    if not str_a or not str_b:
+        return False
+    return str_a[-1] == str_b[-1]
 
 def hundred(num_a: int) -> int:
     """
@@ -102,6 +115,10 @@ def hundred(num_a: int) -> int:
     :return int.
     """
     # your code goes here
+    if num_a <= 100:
+        return 100 - num_a
+    else:
+        return num_a % 100
 
 
 if __name__ == '__main__':
