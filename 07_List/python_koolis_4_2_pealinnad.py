@@ -25,5 +25,10 @@ if __name__ == '__main__':
     print_list(capitols)
     # TODO sorteeri ja lisa kaks
     capitols.sort()
+    for i in range(2):
+        new_capital = input(f"Sisesta {i + 1}. lisa pealinn: ")
+        capitols.append(new_capital)
+    capitols.sort()
     print_list(capitols, numbered=True)
     # TODO prindi kokkuvõte
+    print(f"Meie järjendis on {len(capitols)} Euroopa pealinna")
