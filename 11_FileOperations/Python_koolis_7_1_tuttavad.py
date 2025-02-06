@@ -14,20 +14,17 @@ def create_file(file_name: str, lines: list) -> None:
     # for line in lines:
     # file.write(line + "\n")
     # Õpetaja versioon
-
-
-with open(file_name, "a") as file:
-    for line in lines:
-        file.write(line)
-        file.write("\n")
+    with open(file_name, "w", encoding="utf8") as file:
+        for line in lines:
+            file.write(f"{file}\n")
 
 
 def read_file(file_name) -> list:
     """ Read all line to a list and return that list """
     result = []
-    with open(file_name, "r", encoding="utf-8") as file:
-        for line in sorted_names:
-            result.append(line)
+    with open(file_name, "r", encoding="utf8") as file:
+        for line in file:
+            result.append(line.rstrip())
     return result
 
 
