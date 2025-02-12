@@ -10,12 +10,12 @@ def make_hola_string(count: int) -> str:
     print(make_hola_string(0)) => ""
     """
     # Your code goes here
-    count = 0
-    string = ""
-    for i in range(count):
-        count += 1
-    string += str(i)
-
+    # count = 0
+    # string = ""
+    # for i in range(count):
+        # count += 1
+    # string += str(i)
+    return "hola" * count
 
 def generate_string_with_random_length(threshold: float) -> str:
     """
