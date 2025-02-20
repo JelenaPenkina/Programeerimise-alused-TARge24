@@ -1,0 +1,6 @@
+<_io.TextIOWrapper name='tuttavad.txt' mode='w' encoding='utf8'>
+<_io.TextIOWrapper name='tuttavad.txt' mode='w' encoding='utf8'>
+<_io.TextIOWrapper name='tuttavad.txt' mode='w' encoding='utf8'>
+<_io.TextIOWrapper name='tuttavad.txt' mode='w' encoding='utf8'>
+<_io.TextIOWrapper name='tuttavad.txt' mode='w' encoding='utf8'>
+<_io.TextIOWrapper name='tuttavad.txt' mode='w' encoding='utf8'>
