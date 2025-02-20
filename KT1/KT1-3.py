@@ -1,4 +1,4 @@
-# KT 1: Kolme arvu küsimine ja kontrollimine kasutajalt
+# KT1 1: Kolme arvu küsimine ja kontrollimine kasutajalt
 
 def main():
     # 1. Küsi kasutajalt 3 arvu ja salvesta need loendisse
@@ -22,7 +22,7 @@ def main():
     print(f'Kokku vastasid õigesti {oiged_vastused} korda.')
 
 
-# Küsi kasutaja nime ja vanust KT-2
+# Küsi kasutaja nime ja vanust KT1-2
 name = input("Sisesta oma nimi: ")
 age = int(input("Sisesta oma vanus: "))
 
