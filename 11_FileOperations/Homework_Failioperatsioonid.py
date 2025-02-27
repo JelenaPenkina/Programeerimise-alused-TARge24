@@ -40,9 +40,7 @@ def read_csv_file(filename: str) -> list:
     :param filename: File to read.
     :return: List of lists.
     """
-    with open(filename, newline='') as file:
-        reader = reader(file)
-        return [row for row in reader]
+    pass
 
 
 def write_contents_to_file(filename: str, contents: str) -> None:
