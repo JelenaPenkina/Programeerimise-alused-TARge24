@@ -17,7 +17,7 @@ class GamingComputer(Computer):
         super().__init__()
         self.name = "AlienWare"
 
-c = Computer()
+c = Computer()    # CTRL + SHIFT + U -> teeb aktiivse sõne suureks 
 c.sell()
 
 # change the price
