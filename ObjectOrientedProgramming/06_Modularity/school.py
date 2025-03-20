@@ -88,4 +88,4 @@ class School:
         return self.courses
 
     def get_students_ordered_by_average_grade(self) -> list[Student]:
-        return self.students
+        return sorted(self.students, key=lambda student: student.get_average_grade())
