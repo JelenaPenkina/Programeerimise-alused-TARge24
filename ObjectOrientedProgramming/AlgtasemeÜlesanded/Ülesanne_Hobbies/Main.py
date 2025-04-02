@@ -22,8 +22,14 @@ def sort_by_most_hobbies(people_list: list) -> list:
     :param people_list: list of people to sort.
     :return: sorted list of people.
     """
-    return sorted(people_list, key=lambda person: (-len(person.hobbies), person.full_name))
-    # - märk paneb hobbide koguse nullist alates
+
+    # Sorteerin inimesed nime järgi
+    sorted_people = sorted(people_list, key=lambda person: person.full_name)
+
+    # Loo uus nimekiri uute objektidega, kus hobid on sorteeritud
+    return [Person(person.first_name, person.last_name, sorted(person.hobbies)) for person in sorted_people]
+    # return sorted(people_list, key=lambda person: (-len(person.hobbies), person.full_name))
+    # miinus(-) märk paneb hobbide koguse nullist alates
 
 
 def sort_by_least_hobbies(people_list: list) -> list:

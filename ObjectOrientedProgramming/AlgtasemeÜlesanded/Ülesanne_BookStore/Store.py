@@ -74,8 +74,7 @@ class Store:
 
         :return: bool
         """
-        if self.can_add_book(book):
-            self.books.remove(book)
+        return book in self.books
 
     def remove_book(self, book: Book):
         """
@@ -83,7 +82,7 @@ class Store:
 
         Function does not return anything
         """
-        if self.can_add_book(book):
+        if self.can_remove_book(book):
             self.books.remove(book)
 
     def get_all_books(self) -> list:
@@ -108,5 +107,12 @@ class Store:
 
         :return: list of Book objects
         """
-        high_rating = max(self.books, key=lambda book: book.rating).rating
-        return list(filter(lambda book: book.rating == high_rating.rating, self.books))
+        if not self.books:
+            return []
+
+        if not all(isinstance(book, Book) for book in self.books):
+            raise TypeError("Kõik self.books elemendid peavad olema Book objektid!")
+
+        high_rating = max(book.rating for book in self.books)
+
+        return [book for book in self.books if book.rating == high_rating]

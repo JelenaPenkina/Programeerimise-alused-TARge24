@@ -1,0 +1,3 @@
+chess;Mati,Kati;winner;Mati
+poker;Mati,Peeter,Kati;points;30,50,20
+monopoly;Kati,Peeter;places;Peeter,Kati
