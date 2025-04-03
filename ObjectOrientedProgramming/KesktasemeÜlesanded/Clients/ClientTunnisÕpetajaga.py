@@ -29,6 +29,7 @@ class Client:
         self.account_age = account_age
         self.starting_amount = starting_amount
         self.current_amount = current_amount
+        self.earnings_per_day_cache = None
 
     def __repr__(self):
         """
@@ -44,9 +45,13 @@ class Client:
 
         You can either calculate the value or save it into a new attribute and return the value.
         """
-        if self.account_age > 0:
-            return (self.current_amount - self.starting_amount) / self.account_age
-        return 0
+        if self.earnings_per_day_cache is None:
+            self.earnings_per_day_cache = (self.current_amount - self.starting_amount) / self.account_age
+        return self.earnings_per_day_cache
+
+    def belongs_to_bank(self, bank_name: str) -> bool:
+        """Return true if this client belongs to a bank_name is a given bank_name."""
+        return bank_name == self.bank
 
 
 def read_from_file_into_list(filename: str) -> list:
@@ -56,16 +61,13 @@ def read_from_file_into_list(filename: str) -> list:
     :param filename: name of file to get info from.
     :return: list of clients.
     """
-    clients = []
-    try:
-        with open(filename, 'r') as file:
-            for line in file:
-                name, bank, account_age, starting_amount, current_amount = line.strip().split(',')
-                client = Client(name, bank, int(account_age), int(starting_amount), int(current_amount))
-                clients.append(client)
-    except FileNotFoundError:
-        print(f"Faili {filename} ei leitud.")
-    return clients
+    result = []
+    with open(filename) as file:
+        for line in file:
+            first_name, bank_name, account_age, start_amount, current_amount = line.rstrip().split(",")
+            result.append(Client(first_name, bank_name, int(account_age),
+                                 int(start_amount), int(current_amount)))
+    return result
 
 
 def filter_by_bank(filename: str, bank: str) -> list:
@@ -76,8 +78,7 @@ def filter_by_bank(filename: str, bank: str) -> list:
     :param bank: to filter by.
     :return: filtered list of people.
     """
-    clients = read_from_file_into_list(filename)
-    return [client for client in clients if client.bank == bank]
+    return list(filter(lambda client: client.belongs_to_bank(bank), read_from_file_into_list(filename)))
 
 
 def largest_earnings_per_day(filename: str) -> Optional[Client]:
@@ -89,19 +90,13 @@ def largest_earnings_per_day(filename: str) -> Optional[Client]:
     :param filename: name of file to get info from.
     :return: client with largest earnings.
     """
-    clients = read_from_file_into_list(filename)
-    max_earnings = float('-inf')
-    best_client = None
-
-    for client in clients:
-        earnings = client.earnings_per_day()
-        if earnings > max_earnings:
-            max_earnings = earnings
-            best_client = client
-        elif earnings == max_earnings and (best_client and client.account_age < best_client.account_age):
-            best_client = client
-
-    return best_client if max_earnings > 0 else None
+    client_list = read_from_file_into_list(filename)
+    biggest_earner = max(client_list, key=lambda client: client.earnings_per_day())
+    if biggest_earner.earnings_per_day() <= 0:
+        return None
+    biggest_earners = list(
+        filter(lambda client: client.earnings_per_day() == biggest_earner.earnings_per_day, client_list))
+    return sorted(biggest_earner, key=lambda client: client.account_age)[0]
 
 
 def largest_loss_per_day(filename: str) -> Optional[Client]:
@@ -113,19 +108,12 @@ def largest_loss_per_day(filename: str) -> Optional[Client]:
     :param filename: name of file to get info from.
     :return: client with largest loss.
     """
-    clients = read_from_file_into_list(filename)
-    max_loss = float('-inf')
-    worst_client = None
-
-    for client in clients:
-        loss = (client.starting_amount - client.current_amount) / client.account_age if client.account_age > 0 else 0
-        if loss > max_loss:
-            max_loss = loss
-            worst_client = client
-        elif loss == max_loss and (worst_client and client.account_age < worst_client.account_age):
-            worst_client = client
-
-    return worst_client if max_loss > 0 else None
+    client_list = read_from_file_into_list(filename)
+    largest_loss = min(client_list, key=lambda client: client.earnings_per_day())
+    if largest_loss.earnings_per_day() <= 0:
+        return None
+    largest_losses = list(filter(lambda client: client.earnings_per_day() == largest_loss.earnings_per_day(), client_list))
+    return sorted(largest_loss, key=lambda client: client.account_age())[0]
 
 
 if __name__ == '__main__':

@@ -5,41 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4696749-4813-4b24-89d9-bf9cc588eb84" name="Changes" comment="Modulaarsus">
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/AlgtasemeÜlesanded/Ülesanne_Zoo/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Board_games/Game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Board_games/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Board_games/Match.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Board_games/Player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Board_games/Statistics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Explanation/Game/Game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Explanation/Game/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Explanation/Game/Match.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Explanation/Game/Player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Explanation/Game/Statistics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Explanation/Game/games.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Explanation/Player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Order/Container.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Order/ContainerAggregator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Order/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Order/Order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Order/OrderAggregator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Order/OrderItem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Order/try.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Students/Students.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Clients/Client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Poker/Card.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Poker/Hand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Poker/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Twitter/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Twitter/twitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Clients/ClientTunnisÕpetajaga.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Clients/clients_info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Poker/CardTunnisÕpetajaga.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/Kontrolltöö/MainMovie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/Kontrolltöö/Movie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/Kontrolltöö/Thriller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/TARge24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TARge24.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObjectOrientedProgramming/AlgtasemeÜlesanded/Ülesanne_BookStore/Store.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/AlgtasemeÜlesanded/Ülesanne_BookStore/Store.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObjectOrientedProgramming/AlgtasemeÜlesanded/Ülesanne_Hobbies/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/AlgtasemeÜlesanded/Ülesanne_Hobbies/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObjectOrientedProgramming/AlgtasemeÜlesanded/Ülesanne_Zoo/Animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/AlgtasemeÜlesanded/Ülesanne_Zoo/Animal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObjectOrientedProgramming/AlgtasemeÜlesanded/Ülesanne_Zoo/Zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/AlgtasemeÜlesanded/Ülesanne_Zoo/Zoo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectOrientedProgramming/03_Polymorphism/Shapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/03_Polymorphism/Shapes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Clients/Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Clients/Client.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +38,12 @@
     &quot;assignee&quot;: &quot;JelenaPenkina&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/JelenaPenkina/Programeerimise-alused-TARge24.git&quot;,
-    &quot;accountId&quot;: &quot;923cacfe-7f98-4ede-aae4-1bdfd95eca73&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JelenaPenkina/Programeerimise-alused-TARge24.git",
+    "accountId": "69c07597-6918-49c6-b95e-d3382665be57"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -79,7 +55,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.CardTunnisÕpetajaga.executor": "Run",
+    "Python.ClientTunnisÕpetajaga.executor": "Run",
+    "Python.Film.executor": "Run",
     "Python.Main.executor": "Run",
+    "Python.MainMovie.executor": "Run",
     "Python.course.executor": "Run",
     "Python.demo.executor": "Run",
     "Python.excerise_main.executor": "Run",
@@ -88,7 +68,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/jelen/OneDrive/Desktop/School TTHK - TARge24/Programeerimise_alused/Programmeerimise alused õige/Programeerimise-alused-TARge24",
+    "last_opened_file_path": "C:/Users/opilane/Desktop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,7 +78,58 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\opilane\Desktop" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.MainMovie">
+    <configuration name="CardTunnisÕpetajaga" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TARge24" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Poker" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Poker/CardTunnisÕpetajaga.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ClientTunnisÕpetajaga" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TARge24" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Clients" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Clients/ClientTunnisÕpetajaga.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TARge24" />
       <option name="ENV_FILES" value="" />
@@ -122,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="excerise_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MainMovie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TARge24" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,12 +162,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programeerimise-alused-TARge24/ObjectOrientedProgramming/06_Modularity" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ObjectOrientedProgramming/Kontrolltöö" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programeerimise-alused-TARge24/ObjectOrientedProgramming/06_Modularity/excerise_main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ObjectOrientedProgramming/Kontrolltöö/MainMovie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Movie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TARge24" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ObjectOrientedProgramming/Kontrolltöö" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\opilane\Programmeerimise alused TARge24\Programeerimise-alused-TARge24\ObjectOrientedProgramming\Kontrolltöö\Movie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,16 +201,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MainMovie" />
+        <item itemvalue="Python.Movie" />
+        <item itemvalue="Python.CardTunnisÕpetajaga" />
+        <item itemvalue="Python.ClientTunnisÕpetajaga" />
         <item itemvalue="Python.Main" />
-        <item itemvalue="Python.excerise_main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.180" />
-        <option value="bundled-python-sdk-85c76a3b01b3-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.180" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
+        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
@@ -172,6 +229,7 @@
       <workItem from="1743529433169" duration="3921000" />
       <workItem from="1743574288585" duration="3043000" />
       <workItem from="1743614963358" duration="2735000" />
+      <workItem from="1743679511032" duration="16173000" />
     </task>
     <task id="LOCAL−00001" summary="Modulaarsus">
       <option name="closed" value="true" />
@@ -190,11 +248,31 @@
     <MESSAGE value="Modulaarsus" />
     <option name="LAST_COMMIT_MESSAGE" value="Modulaarsus" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ObjectOrientedProgramming/Kontrolltöö/Movie.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="card_values" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Programeerimise_alused_TARge24$Main.coverage" NAME="Main Coverage Results" MODIFIED="1743617425163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Explanation/Game" />
+    <SUITE FILE_PATH="coverage/Programeerimise_alused_TARge24$Film.coverage" NAME="Film Coverage Results" MODIFIED="1743694908284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ObjectOrientedProgramming/Kontrolltöö" />
+    <SUITE FILE_PATH="coverage/Programeerimise_alused_TARge24$MainMovie.coverage" NAME="MainMovie Coverage Results" MODIFIED="1743696884728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ObjectOrientedProgramming/Kontrolltöö" />
     <SUITE FILE_PATH="coverage/TARge24$excerise_main.coverage" NAME="excerise_main Coverage Results" MODIFIED="1742489066047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programeerimise-alused-TARge24/ObjectOrientedProgramming/06_Modularity" />
+    <SUITE FILE_PATH="coverage/Programeerimise_alused_TARge24$Main.coverage" NAME="Main Coverage Results" MODIFIED="1743617425163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ObjectOrientedProgramming/EdasijõudnuteÜlesanded/Explanation/Game" />
     <SUITE FILE_PATH="coverage/TARge24$student.coverage" NAME="student Coverage Results" MODIFIED="1742486567349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programeerimise-alused-TARge24/ObjectOrientedProgramming/06_Modularity" />
     <SUITE FILE_PATH="coverage/TARge24$demo.coverage" NAME="demo Coverage Results" MODIFIED="1742479382226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programeerimise-alused-TARge24/ObjectOrientedProgramming/05_Abstraction" />
     <SUITE FILE_PATH="coverage/TARge24$course.coverage" NAME="course Coverage Results" MODIFIED="1742485770504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programeerimise-alused-TARge24/ObjectOrientedProgramming/06_Modularity" />
+    <SUITE FILE_PATH="coverage/Programeerimise_alused_TARge24$CardTunnisÕpetajaga.coverage" NAME="CardTunnisÕpetajaga Coverage Results" MODIFIED="1743690303186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Poker" />
+    <SUITE FILE_PATH="coverage/Programeerimise_alused_TARge24$ClientTunnisÕpetajaga.coverage" NAME="ClientTunnisÕpetajaga Coverage Results" MODIFIED="1743682284419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ObjectOrientedProgramming/KesktasemeÜlesanded/Clients" />
   </component>
 </project>
